@@ -1,0 +1,18 @@
+.box1{
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    position: relative;
+    top: 200px;
+    left:200px;
+    background-color: #FFEECC;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 7px 8px 24px -9px black;
+}
+
+.box1:hover {
+    background-color: lightskyblue;
+    transform: scale(1.1);
+}

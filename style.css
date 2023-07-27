@@ -1,0 +1,57 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+}
+
+/* *:universal selector */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* text align :  */
+.header {
+  background-color: lightgray;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  height: 100px;
+  text-align: center;
+}
+
+#education-details {
+  background-color: lightblue;
+  border: 1px solid blue;
+  margin-bottom: 5px;
+  height: 150px;
+}
+.acc {
+  background-color: red;
+  border: 1px solid pink;
+  margin-bottom: 7px;
+  height: 100px;
+}
+.contact{
+    background-color: lightcyan;
+  border: 1px solid pink;
+  margin-bottom: 7px;
+  height: 100px;
+
+}
+.query{
+    background-color: yellow;
+  border: 1px solid blue;
+  margin-bottom: 7px;
+  height: 150px;
+  justify-content: center;
+
+}
+.in{
+    background-color: pink;
+  border: 1px solid blue;
+  margin-bottom: 7px;
+  height: 100px;
+
+}
+/* display:flex */
+/* justify-content:place your element any where horizontally */
